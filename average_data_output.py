@@ -1,6 +1,6 @@
 import pandas as pd
 
-BASE_PATH = "~/Desktop/Progetto Impianti/ImpiantiProject/"
+BASE_PATH = "~/Desktop/Progetto Impianti/ImpiantiProject/Reports/"
 LIST_SUMMARY_REPORT = [ "Summary_Report_Test_1000_",
                         "Summary_Report_Test_3000_",
                         "Summary_Report_Test_5000_",
@@ -37,5 +37,5 @@ for report in LIST_SUMMARY_REPORT:
         print(f"\tTHROUGHPUT: {averageThroughputOnMinute}")
         print(f"\tRESPONSE TIME: {averageResponseTime}")
         print("===========")
-    except:
-        print(f"File error: {report}")
+    except Exception as exc:
+        print(f"File error: {report}. Cause: {exc}")
