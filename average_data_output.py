@@ -43,20 +43,26 @@ def getPower(throughputVector, responseTimeVector):
 
     return powerList
 
-BASE_PATH = "~/Desktop/Progetto Impianti/ImpiantiProject/Reports/"
+BASE_PATH = "~/Desktop/git/ImpiantiProject/Reports/"
 
 LIST_SUMMARY_REPORT = [ "Summary_Report_Test_1000_",
+                        "Summary_Report_Test_2000_",
                         "Summary_Report_Test_3000_",
+                        "Summary_Report_Test_4000_",
                         "Summary_Report_Test_5000_",
+                        "Summary_Report_Test_6000_",
                         "Summary_Report_Test_7000_"]
 MASK_LIST_COLUMNS = ["timeStamp", "threadName", "label", "bytes", "Latency", "elapsed"]
 
 LIST_SUMMARY_STATS = ["VMSTAT_1000_",
+                      "VMSTAT_2000_",
                       "VMSTAT_3000_",
+                      "VMSTAT_4000_",
                       "VMSTAT_5000_",
+                      "VMSTAT_6000_",
                       "VMSTAT_7000_"]
 
-X_AXIS_LIST = [1000, 3000, 5000, 7000]
+X_AXIS_LIST = [1000, 2000, 3000, 4000, 5000, 6000, 7000]
 THROUGHPUT_AXIS_LIST = []
 RESPONSE_TIME_AXIS_LIST = []
 
@@ -105,6 +111,8 @@ for report in LIST_SUMMARY_REPORT:
 
 
 plt.plot(X_AXIS_LIST, THROUGHPUT_AXIS_LIST)
+plt.show()
 plt.plot(X_AXIS_LIST, RESPONSE_TIME_AXIS_LIST)
+plt.show()
 plt.plot(X_AXIS_LIST, getPower(THROUGHPUT_AXIS_LIST, RESPONSE_TIME_AXIS_LIST))
 plt.show()
