@@ -67,6 +67,26 @@ AverageVMStats = {
     "st" : 0
 }
 
+AverageVMStats_AXIS_LIST = {
+    "r" : [],
+    "b" : [],
+    "swpd" : [],
+    "free" : [],
+    "buff" : [],
+    "cache" : [],
+    "si" : [],
+    "so" : [],
+    "bi" : [],
+    "bo" : [],
+    "in" : [],
+    "cs" : [],
+    "us" : [],
+    "sy" : [],
+    "id" : [],
+    "wa" : [],
+    "st" : []
+}
+
 BASE_PATH = "~/Desktop/git/ImpiantiProject/Reports/"
 
 LIST_SUMMARY_REPORT = [ "Summary_Report_Test_1000_",
@@ -93,8 +113,10 @@ LIST_SUMMARY_STATS = ["VMSTAT_1000_",
                       "VMSTAT_7000_"]
 
 X_AXIS_LIST = [1000, 2000, 3000, 3500, 4000, 4500, 5000, 6000, 6500, 7000]
+
 THROUGHPUT_AXIS_LIST = []
 RESPONSE_TIME_AXIS_LIST = []
+
 
 dictReportStats = {}
 
@@ -145,20 +167,18 @@ for report in LIST_SUMMARY_REPORT:
 
         for key, value in AverageVMStats.items():
             AverageVMStats[key] /= NUM_OF_MEASURES
+            AverageVMStats_AXIS_LIST[key].append(AverageVMStats[key])
 
         THROUGHPUT_AXIS_LIST.append(averageThroughput)
         RESPONSE_TIME_AXIS_LIST.append(averageResponseTime)
 
         averageThroughputOnMinute = averageThroughput * 60
 
-        printResults(averageThroughput, averageResponseTime, averageStandardDeviaton)
-        printVMStat(AverageVMStats)
+        #printResults(averageThroughput, averageResponseTime, averageStandardDeviaton)
+        #printVMStat(AverageVMStats)
     except Exception as exc:
         print(f"File error: {report}. Cause: {str(exc)}")
         THROUGHPUT_AXIS_LIST.append(1)
-        RESPONSE_TIME_AXIS_LIST.append(1)
-
-
 figure, axis = plt.subplots(3, 1)
 
 figure.set_figheight(10)
@@ -173,6 +193,43 @@ axis[1].set_ylabel("ms")
 
 axis[2].plot(X_AXIS_LIST, getPower(THROUGHPUT_AXIS_LIST, RESPONSE_TIME_AXIS_LIST), color='g', marker='o')
 axis[2].set_title("Power")
+
+figure.tight_layout()
+
+#plt.show()
+
+figure, axis = plt.subplots(3, 2)
+
+axis[0, 0].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["b"], marker='o', label="Waiting processes")
+#axis[0, 0].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["r"])
+axis[0, 0].legend()
+
+axis[0, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["swpd"], marker='o', label="Virtual Memory")
+axis[0, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["free"], marker='o', label="Free Memory")
+axis[0, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["buff"], marker='o', label="Buffer Memory")
+axis[0, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["cache"], marker='o', label="Cache Memory")
+axis[0, 1].legend()
+
+axis[1, 0].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["si"], marker='o', label="Virtual Memory Swapped-in")
+axis[1, 0].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["so"], marker='o', label="Virtual Memory Swapped-out")
+axis[1, 0].legend()
+
+axis[1, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["bi"], marker='o', label="Memory blocks read")
+axis[1, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["bo"], marker='o', label="Memory blocks written")
+axis[1, 1].legend()
+
+axis[2, 0].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["in"], marker='o', label="Interrupt per second")
+axis[2, 0].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["cs"], marker='o', label="Context-switches per second")
+axis[2, 0].legend()
+
+axis[2, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["us"], marker='o', label="User Time")
+axis[2, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["sy"], marker='o', label="Kernel Time")
+axis[2, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["id"], marker='o', label="Idle Time")
+axis[2, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["wa"], marker='o', label="I/O Waiting Time")
+axis[2, 1].legend()
+
+figure.set_figwidth(10)
+figure.set_figheight(10)
 
 figure.tight_layout()
 
