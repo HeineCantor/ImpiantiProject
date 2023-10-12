@@ -8,30 +8,30 @@ def buildDictionary():
 
 def printVMStat(dataFrameStats):
     print("\t========= PROCS")
-    print(f"\tPROCESSES NUMBER: {dataFrameStats['r'].mean()}")
-    print(f"\tPROCESSES NO SLEEP NUMBER: {dataFrameStats['b'].mean()}")
+    print(f"\tPROCESSES NUMBER: {dataFrameStats['r']}")
+    print(f"\tPROCESSES NO SLEEP NUMBER: {dataFrameStats['b']}")
     print("\t========= MEMORY")
-    print(f"\tVIRTUAL MEMORY: {dataFrameStats['swpd'].mean()} kB")
-    print(f"\tIDLE MEMORY: {dataFrameStats['free'].mean()} kB")
-    print(f"\tBUFFER MEMORY: {dataFrameStats['buff'].mean()} kB")
-    print(f"\tCACHE MEMORY: {dataFrameStats['cache'].mean()} kB")
+    print(f"\tVIRTUAL MEMORY: {dataFrameStats['swpd']} kB")
+    print(f"\tIDLE MEMORY: {dataFrameStats['free']} kB")
+    print(f"\tBUFFER MEMORY: {dataFrameStats['buff']} kB")
+    print(f"\tCACHE MEMORY: {dataFrameStats['cache']} kB")
     #print(f"\tINACTIVE MEMORY: {dataFrameStats['inact'].mean()} kB")
     #print(f"\tACTIVE MEMORY: {dataFrameStats['active'].mean()} kB")
     print("\t========= SWAP")
-    print(f"\tSWAPPED FROM DISK: {dataFrameStats['si'].mean()} kB/s")
-    print(f"\tSWAPPED TO DISK: {dataFrameStats['so'].mean()} kB/s")
+    print(f"\tSWAPPED FROM DISK: {dataFrameStats['si']} kB/s")
+    print(f"\tSWAPPED TO DISK: {dataFrameStats['so']} kB/s")
     print("\t========= IO")
-    print(f"\tBLOCKS FROM DISK: {dataFrameStats['bi'].mean()} blocks/s")
-    print(f"\tBLOCKS TO DISK: {dataFrameStats['bo'].mean()} blocks/s")
+    print(f"\tBLOCKS FROM DISK: {dataFrameStats['bi']} blocks/s")
+    print(f"\tBLOCKS TO DISK: {dataFrameStats['bo']} blocks/s")
     print("\t========= SYSTEM")
-    print(f"\tINTERRUPTS PER SECOND: {dataFrameStats['in'].mean()}")
-    print(f"\tCONTEXT SWITCH PER SECOND: {dataFrameStats['cs'].mean()}")
+    print(f"\tINTERRUPTS PER SECOND: {dataFrameStats['in']}")
+    print(f"\tCONTEXT SWITCH PER SECOND: {dataFrameStats['cs']}")
     print("\t========= CPU")
-    print(f"\tUSER TIME: {dataFrameStats['us'].mean()} %")
-    print(f"\tKERNEL TIME: {dataFrameStats['sy'].mean()} %")
-    print(f"\tIDLE TIME: {dataFrameStats['id'].mean()} %")
-    print(f"\tIO TIME: {dataFrameStats['wa'].mean()} %")
-    print(f"\tVM TIME: {dataFrameStats['st'].mean()} %")
+    print(f"\tUSER TIME: {dataFrameStats['us']} %")
+    print(f"\tKERNEL TIME: {dataFrameStats['sy']} %")
+    print(f"\tIDLE TIME: {dataFrameStats['id']} %")
+    print(f"\tIO TIME: {dataFrameStats['wa']} %")
+    print(f"\tVM TIME: {dataFrameStats['st']} %")
     print("===========")
 
 def printResults(avgThrough, avgTime, stdDeviation):
@@ -46,6 +46,26 @@ def getPower(throughputVector, responseTimeVector):
         powerList.append(throughputVector[i] / responseTimeVector[i])
 
     return powerList
+
+AverageVMStats = {
+    "r" : 0,
+    "b" : 0,
+    "swpd" : 0,
+    "free" : 0,
+    "buff" : 0,
+    "cache" : 0,
+    "si" : 0,
+    "so" : 0,
+    "bi" : 0,
+    "bo" : 0,
+    "in" : 0,
+    "cs" : 0,
+    "us" : 0,
+    "sy" : 0,
+    "id" : 0,
+    "wa" : 0,
+    "st" : 0
+}
 
 BASE_PATH = "~/Desktop/git/ImpiantiProject/Reports/"
 
@@ -87,6 +107,9 @@ averageResponseTime = 0
 averageStandardDeviaton = 0
 
 for report in LIST_SUMMARY_REPORT:
+    for key, value in AverageVMStats.items():
+        AverageVMStats[key] = 0
+
     averageThroughput = 0
     averageResponseTime = 0
     try:
@@ -111,11 +134,17 @@ for report in LIST_SUMMARY_REPORT:
             averageStandardDeviaton /= dataFrameReports.count()["elapsed"]
             averageStandardDeviaton = math.sqrt(averageStandardDeviaton)
 
+            for stat in dataFrameStats:
+                AverageVMStats[stat] += dataFrameStats[stat].mean()
+
         averageThroughput /= NUM_OF_MEASURES
         averageThroughputOnMinute = averageThroughput * 60
         averageResponseTime /= NUM_OF_MEASURES
 
         averageStandardDeviaton /= NUM_OF_MEASURES
+
+        for key, value in AverageVMStats.items():
+            AverageVMStats[key] /= NUM_OF_MEASURES
 
         THROUGHPUT_AXIS_LIST.append(averageThroughput)
         RESPONSE_TIME_AXIS_LIST.append(averageResponseTime)
@@ -123,6 +152,7 @@ for report in LIST_SUMMARY_REPORT:
         averageThroughputOnMinute = averageThroughput * 60
 
         printResults(averageThroughput, averageResponseTime, averageStandardDeviaton)
+        printVMStat(AverageVMStats)
     except Exception as exc:
         print(f"File error: {report}. Cause: {str(exc)}")
         THROUGHPUT_AXIS_LIST.append(1)
