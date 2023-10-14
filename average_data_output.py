@@ -2,10 +2,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import math
 
-def buildDictionary():
-    for i in range(len(LIST_SUMMARY_REPORT)):
-        dictReportStats[LIST_SUMMARY_REPORT[i]] = LIST_SUMMARY_STATS[i]
-
 def printVMStat(dataFrameStats):
     print("\t========= PROCS")
     print(f"\tPROCESSES NUMBER: {dataFrameStats['r']}")
@@ -88,86 +84,52 @@ AverageVMStats_AXIS_LIST = {
 }
 
 BASE_PATH = "~/Desktop/git/ImpiantiProject/Reports/"
+SUMMARY_REPORT_PREFIX = "Summary_Report_Test_"
+VMSTAT_REPORT_PREFIX = "VMSTAT_"
 
-LIST_SUMMARY_REPORT = [ "Summary_Report_Test_1000_",
-                        "Summary_Report_Test_2000_",
-                        "Summary_Report_Test_3000_",
-                        "Summary_Report_Test_3500_",
-                        "Summary_Report_Test_4000_",
-                        "Summary_Report_Test_4500_",
-                        "Summary_Report_Test_5000_",
-                        "Summary_Report_Test_6000_",
-                        "Summary_Report_Test_6500_",
-                        "Summary_Report_Test_7000_"]
 MASK_LIST_COLUMNS = ["timeStamp", "threadName", "label", "bytes", "Latency", "elapsed"]
-
-LIST_SUMMARY_STATS = ["VMSTAT_1000_",
-                      "VMSTAT_2000_",
-                      "VMSTAT_3000_",
-                      "VMSTAT_3500_",
-                      "VMSTAT_4000_",
-                      "VMSTAT_4500_",
-                      "VMSTAT_5000_",
-                      "VMSTAT_6000_",
-                      "VMSTAT_6500_",
-                      "VMSTAT_7000_"]
 
 X_AXIS_LIST = [1000, 2000, 3000, 3500, 4000, 4500, 5000, 6000, 6500, 7000]
 
 THROUGHPUT_AXIS_LIST = []
 RESPONSE_TIME_AXIS_LIST = []
 
-
-dictReportStats = {}
-
-buildDictionary()
-
-NUM_OF_MEASURES = 3
-
 averageThroughput = 0
 averageResponseTime = 0
 averageStandardDeviaton = 0
 
-for report in LIST_SUMMARY_REPORT:
+for load in X_AXIS_LIST:
     for key, value in AverageVMStats.items():
         AverageVMStats[key] = 0
 
     averageThroughput = 0
     averageResponseTime = 0
     try:
-        for i in range(NUM_OF_MEASURES):
-            dataFrameReports = pd.read_csv(BASE_PATH + report + str(i+1) + ".csv")
-            dataFrameStats = pd.read_csv(BASE_PATH + dictReportStats[report] + str(i+1) + ".txt", delim_whitespace=True)
+        dataFrameReports = pd.read_csv(BASE_PATH + SUMMARY_REPORT_PREFIX + str(load) + ".csv")
+        dataFrameStats = pd.read_csv(BASE_PATH + VMSTAT_REPORT_PREFIX + str(load) + ".txt", delim_whitespace=True)
 
-            maxTimestamp = dataFrameReports.max()["timeStamp"]
-            minTimestamp = dataFrameReports.min()["timeStamp"]
-            duration = (maxTimestamp - minTimestamp)/1000
+        maxTimestamp = dataFrameReports.max()["timeStamp"]
+        minTimestamp = dataFrameReports.min()["timeStamp"]
+        duration = (maxTimestamp - minTimestamp)/1000
 
-            totalOfRequests = dataFrameReports.count()["timeStamp"]
+        totalOfRequests = dataFrameReports.count()["timeStamp"]
 
-            throughput = totalOfRequests / duration
-            
-            averageResponseTime += dataFrameReports["elapsed"].mean()
-            averageThroughput += throughput
+        throughput = totalOfRequests / duration
+        
+        averageResponseTime += dataFrameReports["elapsed"].mean()
+        averageThroughput += throughput
 
-            for responseTime in dataFrameReports["elapsed"]:
-                averageStandardDeviaton += (responseTime - averageResponseTime)**2
+        for responseTime in dataFrameReports["elapsed"]:
+            averageStandardDeviaton += (responseTime - averageResponseTime)**2
 
-            averageStandardDeviaton /= dataFrameReports.count()["elapsed"]
-            averageStandardDeviaton = math.sqrt(averageStandardDeviaton)
+        averageStandardDeviaton /= dataFrameReports.count()["elapsed"]
+        averageStandardDeviaton = math.sqrt(averageStandardDeviaton)
 
-            for stat in dataFrameStats:
-                AverageVMStats[stat] += dataFrameStats[stat].mean()
+        for stat in dataFrameStats:
+            AverageVMStats[stat] += dataFrameStats[stat].mean()
+            AverageVMStats_AXIS_LIST[stat].append(AverageVMStats[stat])
 
-        averageThroughput /= NUM_OF_MEASURES
         averageThroughputOnMinute = averageThroughput * 60
-        averageResponseTime /= NUM_OF_MEASURES
-
-        averageStandardDeviaton /= NUM_OF_MEASURES
-
-        for key, value in AverageVMStats.items():
-            AverageVMStats[key] /= NUM_OF_MEASURES
-            AverageVMStats_AXIS_LIST[key].append(AverageVMStats[key])
 
         THROUGHPUT_AXIS_LIST.append(averageThroughput)
         RESPONSE_TIME_AXIS_LIST.append(averageResponseTime)
@@ -177,8 +139,13 @@ for report in LIST_SUMMARY_REPORT:
         #printResults(averageThroughput, averageResponseTime, averageStandardDeviaton)
         #printVMStat(AverageVMStats)
     except Exception as exc:
-        print(f"File error: {report}. Cause: {str(exc)}")
+        print(f"File error: {load}. Cause: {str(exc)}")
         THROUGHPUT_AXIS_LIST.append(1)
+        RESPONSE_TIME_AXIS_LIST.append(1)
+        for stat in AverageVMStats.keys():
+            AverageVMStats_AXIS_LIST[stat].append(1)
+
+
 figure, axis = plt.subplots(3, 1)
 
 figure.set_figheight(10)
