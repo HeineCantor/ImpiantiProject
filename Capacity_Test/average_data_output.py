@@ -89,7 +89,31 @@ VMSTAT_REPORT_PREFIX = "VMSTAT_"
 
 MASK_LIST_COLUMNS = ["timeStamp", "threadName", "label", "bytes", "Latency", "elapsed"]
 
-X_AXIS_LIST = [1000, 2000, 3000, 3500, 4000, 4500, 5000, 6000, 7000, 10000, 15000, 17000, 19000, 20000, 25000]
+X_AXIS_LIST = [
+    1000, 
+    2000, 
+    3000, 
+    3500, 
+    4000, 
+    4500, 
+    5000, 
+    6000, 
+    7000, 
+    10000, 
+    15000, 
+    17000, 
+    19000, 
+    20000, 
+    25000,
+    30000,
+    35000,
+    40000,
+    45000,
+    50000,
+    70000,
+    100000#,
+    #500000
+]
 
 THROUGHPUT_AXIS_LIST = []
 RESPONSE_TIME_AXIS_LIST = []
