@@ -153,13 +153,16 @@ figure.set_figheight(10)
 axis[0].plot(X_AXIS_LIST, THROUGHPUT_AXIS_LIST, color='b', marker='o')
 axis[0].set_title("Throughput")
 axis[0].set_ylabel("req/s")
+axis[0].grid()
 
 axis[1].plot(X_AXIS_LIST, RESPONSE_TIME_AXIS_LIST, color='r', marker='o')
 axis[1].set_title("Response Time")
 axis[1].set_ylabel("ms")
+axis[1].grid()
 
 axis[2].plot(X_AXIS_LIST, getPower(THROUGHPUT_AXIS_LIST, RESPONSE_TIME_AXIS_LIST), color='g', marker='o')
 axis[2].set_title("Power")
+axis[2].grid()
 
 figure.tight_layout()
 
@@ -170,6 +173,7 @@ figure, axis = plt.subplots(3, 2)
 axis[0, 0].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["b"], marker='o', label="Waiting processes")
 #axis[0, 0].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["r"])
 axis[0, 0].legend()
+axis[0, 0].grid()
 
 axis[0, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["swpd"], marker='o', label="Virtual Memory")
 axis[0, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["free"], marker='o', label="Free Memory")
@@ -177,20 +181,24 @@ axis[0, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["buff"], marker='o', label
 axis[0, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["cache"], marker='o', label="Cache Memory")
 axis[0, 1].set_ylabel("kB")
 axis[0, 1].legend()
+axis[0, 1].grid()
 
 axis[1, 0].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["si"], marker='o', label="Virtual Memory Swapped-in")
 axis[1, 0].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["so"], marker='o', label="Virtual Memory Swapped-out")
 axis[1, 0].set_ylabel("kB/s")
 axis[1, 0].legend()
+axis[1, 0].grid()
 
 axis[1, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["bi"], marker='o', label="Memory blocks read")
 axis[1, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["bo"], marker='o', label="Memory blocks written")
 axis[1, 1].set_ylabel("blocks/s")
 axis[1, 1].legend()
+axis[1, 1].grid()
 
 axis[2, 0].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["in"], marker='o', label="Interrupt per second")
 axis[2, 0].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["cs"], marker='o', label="Context-switches per second")
 axis[2, 0].legend()
+axis[2, 0].grid()
 
 axis[2, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["us"], marker='o', label="User Time")
 axis[2, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["sy"], marker='o', label="Kernel Time")
@@ -198,6 +206,7 @@ axis[2, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["id"], marker='o', label="
 axis[2, 1].plot(X_AXIS_LIST, AverageVMStats_AXIS_LIST["wa"], marker='o', label="I/O Waiting Time")
 axis[2, 1].set_ylabel("%")
 axis[2, 1].legend()
+axis[2, 1].grid()
 
 figure.set_figwidth(10)
 figure.set_figheight(10)
