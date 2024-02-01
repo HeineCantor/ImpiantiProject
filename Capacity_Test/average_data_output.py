@@ -31,7 +31,7 @@ def printVMStat(dataFrameStats):
     print("===========")
 
 def printResults(avgThrough, avgTime, stdDeviation):
-    print(f"=== REPORT {report} ===")
+    #print(f"=== REPORT {report} ===")
     print(f"\tTHROUGHPUT: {avgThrough}")
     print(f"\tRESPONSE TIME: {avgTime}")
     print(f"\tSTANDARD DEVIATION: {stdDeviation}")
@@ -90,29 +90,16 @@ VMSTAT_REPORT_PREFIX = "VMSTAT_"
 MASK_LIST_COLUMNS = ["timeStamp", "threadName", "label", "bytes", "Latency", "elapsed"]
 
 X_AXIS_LIST = [
-    1000, 
-    2000, 
-    3000, 
-    3500, 
-    4000, 
-    4500, 
-    5000, 
-    6000, 
-    7000, 
-    10000, 
-    15000, 
-    17000, 
-    19000, 
-    20000, 
-    25000,
-    30000,
-    35000,
-    40000,
-    45000,
-    50000,
-    70000,
-    100000#,
-    #500000
+    500,
+    700,
+    900,
+    1100,
+    1300,
+    1500,
+    1700,
+    1900,
+    2100,
+    2300
 ]
 
 THROUGHPUT_AXIS_LIST = []
@@ -130,7 +117,7 @@ for load in X_AXIS_LIST:
     averageResponseTime = 0
     try:
         dataFrameReports = pd.read_csv(BASE_PATH + SUMMARY_REPORT_PREFIX + str(load) + ".csv")
-        dataFrameStats = pd.read_csv(BASE_PATH + VMSTAT_REPORT_PREFIX + str(load) + ".txt", delim_whitespace=True)
+        dataFrameStats = pd.read_csv(BASE_PATH + VMSTAT_REPORT_PREFIX + str(load) + ".csv", delim_whitespace=True)
 
         maxTimestamp = dataFrameReports.max()["timeStamp"]
         minTimestamp = dataFrameReports.min()["timeStamp"]
@@ -189,7 +176,6 @@ axis[2].set_title("Power")
 axis[2].grid()
 
 figure.tight_layout()
-
 #plt.show()
 
 figure, axis = plt.subplots(3, 2)
