@@ -2,12 +2,11 @@ import pandas as pd
 import numpy as np
 from tqdm import tqdm
 
-DATA_PATH = "~/Desktop/git/ImpiantiProject/PCA_Clustering/WorkloadClustering/HL/"
-PCA_CLUSTERING_DATA = "Report5cluster.csv"
-CLUSTERING_CENTROIDS = "Medie5cluster.csv"
+DATA_PATH = "~/Desktop/git/ImpiantiProject/PCA_Clustering/WorkloadClustering/LL/"
+PCA_CLUSTERING_DATA = "sintetico.csv"
+CLUSTERING_CENTROIDS = "mediesintetico.csv"
 
-LOSS_PCA = 0.9676
-#LOSS_PCA = 0.8967
+LOSS_PCA = 0.8934
 enablePCA = True
 
 pcaClusteringDataFrame = pd.read_csv(DATA_PATH + PCA_CLUSTERING_DATA, decimal=',')
