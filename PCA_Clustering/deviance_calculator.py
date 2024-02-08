@@ -6,7 +6,7 @@ DATA_PATH = "~/Desktop/git/ImpiantiProject/PCA_Clustering/WorkloadClustering/LL/
 PCA_CLUSTERING_DATA = "sintetico.csv"
 CLUSTERING_CENTROIDS = "mediesintetico.csv"
 
-LOSS_PCA = 0.8934
+LOSS_PCA = 0.9655
 enablePCA = True
 
 pcaClusteringDataFrame = pd.read_csv(DATA_PATH + PCA_CLUSTERING_DATA, decimal=',')
