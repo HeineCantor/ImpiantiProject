@@ -1,0 +1,186 @@
+Time: 2242217 us
+Time: 2097219 us
+Time: 2099945 us
+Time: 2098155 us
+Time: 2099005 us
+
+Time: 2059098 us
+Time: 2064372 us
+Time: 2057215 us
+Time: 2058160 us
+Time: 2021461 us
+
+Time: 2051713 us
+Time: 2051768 us
+Time: 2062888 us
+Time: 2062160 us
+Time: 2052672 us
+
+Time: 2053368 us
+Time: 2050594 us
+Time: 2046830 us
+Time: 2041752 us
+Time: 2049680 us
+
+Time: 2057595 us
+Time: 2062736 us
+Time: 2052992 us
+Time: 2058433 us
+Time: 2055186 us
+
+Time: 2107629 us
+Time: 2238664 us
+Time: 2095535 us
+Time: 2117857 us
+Time: 2152927 us
+
+Time: 2053130 us
+Time: 2501058 us
+Time: 2057479 us
+Time: 2057701 us
+Time: 2063936 us
+
+Time: 2066529 us
+Time: 2068032 us
+Time: 2065954 us
+Time: 2062245 us
+Time: 2063969 us
+
+Time: 2127431 us
+Time: 2123491 us
+Time: 2120176 us
+Time: 2118433 us
+Time: 2102732 us
+
+Time: 2061647 us
+Time: 2200175 us
+Time: 2058359 us
+Time: 2058170 us
+Time: 2056446 us
+
+Time: 2089021 us
+Time: 2096513 us
+Time: 2107444 us
+Time: 2180061 us
+Time: 2168520 us
+
+Time: 2059092 us
+Time: 2062236 us
+Time: 2062138 us
+Time: 2065596 us
+Time: 2058224 us
+
+Time: 2075379 us
+Time: 2083741 us
+Time: 2067076 us
+Time: 2075473 us
+Time: 2074284 us
+
+Time: 2060355 us
+Time: 2061581 us
+Time: 2063985 us
+Time: 2062280 us
+Time: 2196127 us
+
+Time: 2050657 us
+Time: 2070967 us
+Time: 2068653 us
+Time: 2028583 us
+Time: 2036237 us
+
+Time: 2055819 us
+Time: 2063996 us
+Time: 2070049 us
+Time: 2091008 us
+Time: 2051249 us
+
+Time: 2054055 us
+Time: 2054955 us
+Time: 2065168 us
+Time: 2053484 us
+Time: 2053213 us
+
+Time: 2646959 us
+Time: 2093509 us
+Time: 2083098 us
+Time: 2090030 us
+Time: 2092116 us
+
+Time: 2064967 us
+Time: 2065393 us
+Time: 2067689 us
+Time: 2203354 us
+Time: 2010677 us
+
+Time: 2065056 us
+Time: 2070037 us
+Time: 2066385 us
+Time: 2070978 us
+Time: 2077718 us
+
+Time: 2072316 us
+Time: 2669505 us
+Time: 2067597 us
+Time: 2247767 us
+Time: 2057362 us
+
+Time: 2077411 us
+Time: 2085263 us
+Time: 2075987 us
+Time: 2223424 us
+Time: 2076591 us
+
+Time: 2027456 us
+Time: 2034020 us
+Time: 2039491 us
+Time: 2058626 us
+Time: 2044416 us
+
+Time: 2073566 us
+Time: 2073676 us
+Time: 2078926 us
+Time: 2178840 us
+Time: 2153974 us
+
+Time: 2098306 us
+Time: 2098519 us
+Time: 2099390 us
+Time: 2088317 us
+Time: 2089491 us
+
+Time: 2076946 us
+Time: 2130175 us
+Time: 2127524 us
+Time: 2101131 us
+Time: 2093841 us
+
+Time: 2053294 us
+Time: 2057940 us
+Time: 2207311 us
+Time: 2052622 us
+Time: 2058636 us
+
+Time: 2048883 us
+Time: 2049476 us
+Time: 2055133 us
+Time: 2050419 us
+Time: 2055273 us
+
+Time: 2075218 us
+Time: 2059896 us
+Time: 2070270 us
+Time: 2062986 us
+Time: 2068050 us
+
+Time: 2090776 us
+Time: 2199375 us
+Time: 2088345 us
+Time: 2097063 us
+Time: 2090831 us
+
+Time: 2086023 us
+Time: 2088877 us
+Time: 2087673 us
+Time: 2109067 us
+Time: 2090577 us
+

@@ -1,0 +1,186 @@
+Time: 58892 us
+Time: 61595 us
+Time: 63495 us
+Time: 61891 us
+Time: 30888 us
+
+Time: 61482 us
+Time: 61536 us
+Time: 63142 us
+Time: 34080 us
+Time: 62385 us
+
+Time: 60694 us
+Time: 55177 us
+Time: 34376 us
+Time: 34529 us
+Time: 62927 us
+
+Time: 33469 us
+Time: 31666 us
+Time: 63618 us
+Time: 32871 us
+Time: 60839 us
+
+Time: 58800 us
+Time: 59191 us
+Time: 60320 us
+Time: 31600 us
+Time: 50459 us
+
+Time: 33423 us
+Time: 35356 us
+Time: 33958 us
+Time: 35112 us
+Time: 34813 us
+
+Time: 36919 us
+Time: 62850 us
+Time: 59152 us
+Time: 34345 us
+Time: 34359 us
+
+Time: 63984 us
+Time: 34724 us
+Time: 33503 us
+Time: 56192 us
+Time: 57235 us
+
+Time: 58404 us
+Time: 32666 us
+Time: 55304 us
+Time: 57684 us
+Time: 34347 us
+
+Time: 57824 us
+Time: 31670 us
+Time: 60415 us
+Time: 35128 us
+Time: 34580 us
+
+Time: 33708 us
+Time: 31175 us
+Time: 67291 us
+Time: 35351 us
+Time: 34575 us
+
+Time: 61799 us
+Time: 55455 us
+Time: 34336 us
+Time: 35700 us
+Time: 60091 us
+
+Time: 35666 us
+Time: 32497 us
+Time: 55307 us
+Time: 62389 us
+Time: 32390 us
+
+Time: 34061 us
+Time: 33579 us
+Time: 32257 us
+Time: 34302 us
+Time: 51655 us
+
+Time: 60486 us
+Time: 60343 us
+Time: 34351 us
+Time: 34464 us
+Time: 34616 us
+
+Time: 62361 us
+Time: 64540 us
+Time: 64312 us
+Time: 61493 us
+Time: 57428 us
+
+Time: 59806 us
+Time: 59430 us
+Time: 40521 us
+Time: 34231 us
+Time: 60153 us
+
+Time: 59877 us
+Time: 62429 us
+Time: 30767 us
+Time: 37007 us
+Time: 33963 us
+
+Time: 33391 us
+Time: 56524 us
+Time: 63310 us
+Time: 33436 us
+Time: 58314 us
+
+Time: 33456 us
+Time: 62825 us
+Time: 31025 us
+Time: 63620 us
+Time: 59550 us
+
+Time: 62162 us
+Time: 31915 us
+Time: 56920 us
+Time: 61700 us
+Time: 31769 us
+
+Time: 40798 us
+Time: 43322 us
+Time: 43647 us
+Time: 39015 us
+Time: 36178 us
+
+Time: 64531 us
+Time: 60383 us
+Time: 34543 us
+Time: 31320 us
+Time: 31289 us
+
+Time: 33504 us
+Time: 36111 us
+Time: 36589 us
+Time: 35565 us
+Time: 34835 us
+
+Time: 33288 us
+Time: 62669 us
+Time: 61736 us
+Time: 31960 us
+Time: 61544 us
+
+Time: 65762 us
+Time: 54357 us
+Time: 39099 us
+Time: 63788 us
+Time: 61167 us
+
+Time: 60125 us
+Time: 32639 us
+Time: 63686 us
+Time: 65019 us
+Time: 56624 us
+
+Time: 62036 us
+Time: 31030 us
+Time: 62981 us
+Time: 57247 us
+Time: 35026 us
+
+Time: 33217 us
+Time: 38580 us
+Time: 63311 us
+Time: 35010 us
+Time: 34125 us
+
+Time: 60416 us
+Time: 31081 us
+Time: 63291 us
+Time: 64965 us
+Time: 60524 us
+
+Time: 62491 us
+Time: 67144 us
+Time: 31047 us
+Time: 61959 us
+Time: 62427 us
+

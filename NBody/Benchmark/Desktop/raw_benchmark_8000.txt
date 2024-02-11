@@ -1,0 +1,186 @@
+Time: 2181 us
+Time: 2047 us
+Time: 1996 us
+Time: 1872 us
+Time: 1742 us
+
+Time: 1719 us
+Time: 1780 us
+Time: 1687 us
+Time: 1800 us
+Time: 1775 us
+
+Time: 2170 us
+Time: 2050 us
+Time: 2025 us
+Time: 1865 us
+Time: 1673 us
+
+Time: 2086 us
+Time: 2066 us
+Time: 2070 us
+Time: 1888 us
+Time: 1702 us
+
+Time: 2041 us
+Time: 2053 us
+Time: 2020 us
+Time: 1918 us
+Time: 1660 us
+
+Time: 1729 us
+Time: 1735 us
+Time: 1732 us
+Time: 1804 us
+Time: 1728 us
+
+Time: 1737 us
+Time: 1742 us
+Time: 1742 us
+Time: 1761 us
+Time: 1741 us
+
+Time: 1673 us
+Time: 1691 us
+Time: 1662 us
+Time: 1668 us
+Time: 1679 us
+
+Time: 1751 us
+Time: 1685 us
+Time: 1832 us
+Time: 1705 us
+Time: 1747 us
+
+Time: 1901 us
+Time: 1717 us
+Time: 1709 us
+Time: 1740 us
+Time: 1697 us
+
+Time: 1701 us
+Time: 2012 us
+Time: 1722 us
+Time: 1683 us
+Time: 1735 us
+
+Time: 1779 us
+Time: 1983 us
+Time: 1701 us
+Time: 1795 us
+Time: 1821 us
+
+Time: 2180 us
+Time: 2067 us
+Time: 2010 us
+Time: 1951 us
+Time: 1693 us
+
+Time: 1778 us
+Time: 1695 us
+Time: 1735 us
+Time: 1700 us
+Time: 1657 us
+
+Time: 1710 us
+Time: 1709 us
+Time: 1697 us
+Time: 1701 us
+Time: 1700 us
+
+Time: 2174 us
+Time: 2038 us
+Time: 2020 us
+Time: 1990 us
+Time: 1695 us
+
+Time: 1726 us
+Time: 1892 us
+Time: 1715 us
+Time: 1692 us
+Time: 1709 us
+
+Time: 1673 us
+Time: 1744 us
+Time: 1693 us
+Time: 1676 us
+Time: 1679 us
+
+Time: 2044 us
+Time: 2029 us
+Time: 2015 us
+Time: 1875 us
+Time: 1650 us
+
+Time: 2022 us
+Time: 2014 us
+Time: 2011 us
+Time: 1902 us
+Time: 1677 us
+
+Time: 2222 us
+Time: 2024 us
+Time: 2029 us
+Time: 1948 us
+Time: 1752 us
+
+Time: 2076 us
+Time: 2055 us
+Time: 2168 us
+Time: 1899 us
+Time: 1827 us
+
+Time: 1658 us
+Time: 1714 us
+Time: 1670 us
+Time: 1682 us
+Time: 1664 us
+
+Time: 2073 us
+Time: 2051 us
+Time: 2027 us
+Time: 1844 us
+Time: 1669 us
+
+Time: 1772 us
+Time: 1781 us
+Time: 1729 us
+Time: 1723 us
+Time: 1721 us
+
+Time: 2065 us
+Time: 2032 us
+Time: 2022 us
+Time: 1914 us
+Time: 1691 us
+
+Time: 2028 us
+Time: 2172 us
+Time: 2021 us
+Time: 2021 us
+Time: 1745 us
+
+Time: 2043 us
+Time: 2052 us
+Time: 2046 us
+Time: 1761 us
+Time: 1770 us
+
+Time: 2071 us
+Time: 2192 us
+Time: 2023 us
+Time: 1738 us
+Time: 1725 us
+
+Time: 2018 us
+Time: 2046 us
+Time: 2037 us
+Time: 1967 us
+Time: 1730 us
+
+Time: 2043 us
+Time: 2056 us
+Time: 2033 us
+Time: 1881 us
+Time: 1775 us
+

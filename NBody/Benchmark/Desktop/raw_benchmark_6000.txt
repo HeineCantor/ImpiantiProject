@@ -1,0 +1,186 @@
+Time: 1549 us
+Time: 1543 us
+Time: 1554 us
+Time: 1600 us
+Time: 1361 us
+
+Time: 1524 us
+Time: 1509 us
+Time: 1537 us
+Time: 1510 us
+Time: 1314 us
+
+Time: 1525 us
+Time: 1553 us
+Time: 1549 us
+Time: 1564 us
+Time: 1381 us
+
+Time: 1318 us
+Time: 1369 us
+Time: 1430 us
+Time: 1268 us
+Time: 1274 us
+
+Time: 1375 us
+Time: 1354 us
+Time: 1313 us
+Time: 1365 us
+Time: 1323 us
+
+Time: 1404 us
+Time: 1278 us
+Time: 1363 us
+Time: 1281 us
+Time: 1342 us
+
+Time: 1277 us
+Time: 1405 us
+Time: 1339 us
+Time: 1258 us
+Time: 1340 us
+
+Time: 1294 us
+Time: 1276 us
+Time: 1307 us
+Time: 1288 us
+Time: 1271 us
+
+Time: 1563 us
+Time: 1562 us
+Time: 1522 us
+Time: 1484 us
+Time: 1310 us
+
+Time: 1524 us
+Time: 1536 us
+Time: 1591 us
+Time: 1430 us
+Time: 1268 us
+
+Time: 1546 us
+Time: 1619 us
+Time: 1520 us
+Time: 1513 us
+Time: 1370 us
+
+Time: 1386 us
+Time: 1284 us
+Time: 1408 us
+Time: 1264 us
+Time: 1345 us
+
+Time: 1297 us
+Time: 1279 us
+Time: 1335 us
+Time: 1286 us
+Time: 1277 us
+
+Time: 1534 us
+Time: 1531 us
+Time: 1535 us
+Time: 1540 us
+Time: 1383 us
+
+Time: 1544 us
+Time: 1531 us
+Time: 1524 us
+Time: 1481 us
+Time: 1312 us
+
+Time: 1527 us
+Time: 1560 us
+Time: 1551 us
+Time: 1455 us
+Time: 1301 us
+
+Time: 1543 us
+Time: 1558 us
+Time: 1515 us
+Time: 1483 us
+Time: 1333 us
+
+Time: 1528 us
+Time: 1527 us
+Time: 1618 us
+Time: 1731 us
+Time: 1576 us
+
+Time: 1813 us
+Time: 1296 us
+Time: 1298 us
+Time: 1281 us
+Time: 1590 us
+
+Time: 1333 us
+Time: 1260 us
+Time: 1363 us
+Time: 1270 us
+Time: 1311 us
+
+Time: 1540 us
+Time: 1572 us
+Time: 1510 us
+Time: 1515 us
+Time: 1470 us
+
+Time: 1290 us
+Time: 1293 us
+Time: 1402 us
+Time: 1371 us
+Time: 1293 us
+
+Time: 1530 us
+Time: 1532 us
+Time: 1567 us
+Time: 1503 us
+Time: 1299 us
+
+Time: 1539 us
+Time: 1522 us
+Time: 1518 us
+Time: 1416 us
+Time: 1248 us
+
+Time: 1561 us
+Time: 1540 us
+Time: 1646 us
+Time: 1524 us
+Time: 1374 us
+
+Time: 1554 us
+Time: 1549 us
+Time: 1538 us
+Time: 1473 us
+Time: 1397 us
+
+Time: 1554 us
+Time: 1547 us
+Time: 1533 us
+Time: 1506 us
+Time: 1372 us
+
+Time: 1559 us
+Time: 1639 us
+Time: 1517 us
+Time: 1507 us
+Time: 1436 us
+
+Time: 1526 us
+Time: 1518 us
+Time: 1525 us
+Time: 1511 us
+Time: 1405 us
+
+Time: 1556 us
+Time: 1530 us
+Time: 1546 us
+Time: 1512 us
+Time: 1437 us
+
+Time: 1555 us
+Time: 1534 us
+Time: 1578 us
+Time: 1521 us
+Time: 1335 us
+

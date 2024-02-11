@@ -1,0 +1,186 @@
+Time: 9188 us
+Time: 8181 us
+Time: 9243 us
+Time: 8265 us
+Time: 8225 us
+
+Time: 6012 us
+Time: 3913 us
+Time: 3610 us
+Time: 3689 us
+Time: 3550 us
+
+Time: 9102 us
+Time: 10373 us
+Time: 9507 us
+Time: 9162 us
+Time: 9230 us
+
+Time: 4187 us
+Time: 4483 us
+Time: 8054 us
+Time: 4816 us
+Time: 8149 us
+
+Time: 7994 us
+Time: 8103 us
+Time: 7874 us
+Time: 8073 us
+Time: 7990 us
+
+Time: 4202 us
+Time: 4171 us
+Time: 4132 us
+Time: 4142 us
+Time: 4478 us
+
+Time: 6921 us
+Time: 3588 us
+Time: 3690 us
+Time: 3551 us
+Time: 3710 us
+
+Time: 8727 us
+Time: 7926 us
+Time: 7907 us
+Time: 7879 us
+Time: 8020 us
+
+Time: 8159 us
+Time: 7792 us
+Time: 7987 us
+Time: 7806 us
+Time: 7940 us
+
+Time: 7772 us
+Time: 4877 us
+Time: 4788 us
+Time: 4188 us
+Time: 4712 us
+
+Time: 6031 us
+Time: 4846 us
+Time: 4441 us
+Time: 4317 us
+Time: 3858 us
+
+Time: 6617 us
+Time: 5192 us
+Time: 4153 us
+Time: 4108 us
+Time: 4040 us
+
+Time: 5676 us
+Time: 3705 us
+Time: 3817 us
+Time: 3809 us
+Time: 3711 us
+
+Time: 8889 us
+Time: 7252 us
+Time: 7058 us
+Time: 7326 us
+Time: 7082 us
+
+Time: 8687 us
+Time: 7723 us
+Time: 9308 us
+Time: 4154 us
+Time: 9242 us
+
+Time: 6073 us
+Time: 4119 us
+Time: 4094 us
+Time: 4122 us
+Time: 3994 us
+
+Time: 6840 us
+Time: 3565 us
+Time: 3620 us
+Time: 3694 us
+Time: 3720 us
+
+Time: 8554 us
+Time: 8109 us
+Time: 8126 us
+Time: 8047 us
+Time: 8008 us
+
+Time: 10380 us
+Time: 7926 us
+Time: 5127 us
+Time: 3734 us
+Time: 3705 us
+
+Time: 6097 us
+Time: 9229 us
+Time: 4133 us
+Time: 9266 us
+Time: 4142 us
+
+Time: 7732 us
+Time: 3530 us
+Time: 3563 us
+Time: 3717 us
+Time: 3681 us
+
+Time: 8554 us
+Time: 7901 us
+Time: 7876 us
+Time: 7866 us
+Time: 11362 us
+
+Time: 7252 us
+Time: 5536 us
+Time: 4278 us
+Time: 9284 us
+Time: 4555 us
+
+Time: 7867 us
+Time: 7741 us
+Time: 7492 us
+Time: 7123 us
+Time: 7129 us
+
+Time: 8869 us
+Time: 7826 us
+Time: 8002 us
+Time: 8668 us
+Time: 8664 us
+
+Time: 4236 us
+Time: 4433 us
+Time: 4763 us
+Time: 3593 us
+Time: 4231 us
+
+Time: 7771 us
+Time: 3718 us
+Time: 5515 us
+Time: 4393 us
+Time: 5072 us
+
+Time: 4165 us
+Time: 3639 us
+Time: 8035 us
+Time: 4105 us
+Time: 9576 us
+
+Time: 8845 us
+Time: 4144 us
+Time: 4341 us
+Time: 3687 us
+Time: 8368 us
+
+Time: 8739 us
+Time: 10196 us
+Time: 9486 us
+Time: 4246 us
+Time: 7552 us
+
+Time: 4852 us
+Time: 6328 us
+Time: 3445 us
+Time: 3477 us
+Time: 3479 us
+

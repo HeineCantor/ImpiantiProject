@@ -1,0 +1,186 @@
+Time: 3216789 us
+Time: 3248462 us
+Time: 3249403 us
+Time: 3134878 us
+Time: 3146488 us
+
+Time: 3136977 us
+Time: 3245625 us
+Time: 3131048 us
+Time: 3141986 us
+Time: 3163413 us
+
+Time: 3335911 us
+Time: 3157306 us
+Time: 3161602 us
+Time: 3124067 us
+Time: 3149048 us
+
+Time: 3303783 us
+Time: 3191184 us
+Time: 3160999 us
+Time: 3145081 us
+Time: 3229605 us
+
+Time: 3159042 us
+Time: 3344876 us
+Time: 3148223 us
+Time: 3157784 us
+Time: 3271018 us
+
+Time: 3195672 us
+Time: 3286442 us
+Time: 3118139 us
+Time: 3160157 us
+Time: 3201240 us
+
+Time: 3174617 us
+Time: 3310379 us
+Time: 3162840 us
+Time: 3157118 us
+Time: 3101309 us
+
+Time: 3336016 us
+Time: 3184405 us
+Time: 3147573 us
+Time: 3154710 us
+Time: 3235220 us
+
+Time: 3140876 us
+Time: 3181607 us
+Time: 3113726 us
+Time: 3175657 us
+Time: 3110022 us
+
+Time: 3147199 us
+Time: 3152135 us
+Time: 3092840 us
+Time: 3161300 us
+Time: 2690917 us
+
+Time: 3115850 us
+Time: 3129639 us
+Time: 3198489 us
+Time: 3238987 us
+Time: 3143365 us
+
+Time: 3347843 us
+Time: 3242578 us
+Time: 3164315 us
+Time: 3164680 us
+Time: 3209287 us
+
+Time: 3152157 us
+Time: 3157046 us
+Time: 3242655 us
+Time: 3166579 us
+Time: 3145449 us
+
+Time: 3122320 us
+Time: 3221657 us
+Time: 3086156 us
+Time: 3221854 us
+Time: 3085146 us
+
+Time: 3174912 us
+Time: 3427426 us
+Time: 3157207 us
+Time: 3138614 us
+Time: 3171134 us
+
+Time: 3235669 us
+Time: 3330610 us
+Time: 3194351 us
+Time: 3152632 us
+Time: 3217487 us
+
+Time: 3141916 us
+Time: 3170266 us
+Time: 3117442 us
+Time: 3150377 us
+Time: 3166640 us
+
+Time: 3275828 us
+Time: 3128406 us
+Time: 3176343 us
+Time: 3117102 us
+Time: 3163757 us
+
+Time: 3144177 us
+Time: 3137107 us
+Time: 3145497 us
+Time: 3140716 us
+Time: 3095430 us
+
+Time: 3272339 us
+Time: 3301821 us
+Time: 3131324 us
+Time: 3129128 us
+Time: 3158999 us
+
+Time: 3112180 us
+Time: 3253894 us
+Time: 3154117 us
+Time: 3180616 us
+Time: 3159963 us
+
+Time: 3136698 us
+Time: 3183401 us
+Time: 3170692 us
+Time: 3094483 us
+Time: 3174692 us
+
+Time: 3246839 us
+Time: 3306029 us
+Time: 3164254 us
+Time: 3141763 us
+Time: 2732736 us
+
+Time: 3415047 us
+Time: 3274929 us
+Time: 3145210 us
+Time: 3192614 us
+Time: 3238382 us
+
+Time: 3378350 us
+Time: 3094785 us
+Time: 3151370 us
+Time: 3152587 us
+Time: 3168180 us
+
+Time: 3107348 us
+Time: 3140644 us
+Time: 3179499 us
+Time: 3162540 us
+Time: 3158796 us
+
+Time: 3390984 us
+Time: 3150795 us
+Time: 2528466 us
+Time: 3195225 us
+Time: 3184939 us
+
+Time: 3246128 us
+Time: 3311010 us
+Time: 3142905 us
+Time: 3134670 us
+Time: 3223471 us
+
+Time: 3220271 us
+Time: 3356312 us
+Time: 3194511 us
+Time: 3147052 us
+Time: 3166174 us
+
+Time: 3316954 us
+Time: 3245348 us
+Time: 3191765 us
+Time: 3136784 us
+Time: 3275555 us
+
+Time: 3172167 us
+Time: 3520182 us
+Time: 3172928 us
+Time: 3208021 us
+Time: 3140087 us
+

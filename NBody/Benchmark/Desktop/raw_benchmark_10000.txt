@@ -1,0 +1,186 @@
+Time: 2667 us
+Time: 2623 us
+Time: 2432 us
+Time: 2140 us
+Time: 2075 us
+
+Time: 2551 us
+Time: 2540 us
+Time: 2373 us
+Time: 2143 us
+Time: 2072 us
+
+Time: 2589 us
+Time: 2582 us
+Time: 2437 us
+Time: 2110 us
+Time: 2118 us
+
+Time: 2576 us
+Time: 2625 us
+Time: 2541 us
+Time: 2206 us
+Time: 2082 us
+
+Time: 2128 us
+Time: 2165 us
+Time: 2176 us
+Time: 2134 us
+Time: 2181 us
+
+Time: 2551 us
+Time: 2529 us
+Time: 2531 us
+Time: 2260 us
+Time: 2059 us
+
+Time: 2084 us
+Time: 2090 us
+Time: 2279 us
+Time: 2211 us
+Time: 2247 us
+
+Time: 2231 us
+Time: 2212 us
+Time: 2143 us
+Time: 2391 us
+Time: 2239 us
+
+Time: 2558 us
+Time: 2529 us
+Time: 2491 us
+Time: 2290 us
+Time: 2074 us
+
+Time: 2540 us
+Time: 2701 us
+Time: 2572 us
+Time: 2246 us
+Time: 2174 us
+
+Time: 2538 us
+Time: 2534 us
+Time: 2533 us
+Time: 2249 us
+Time: 2082 us
+
+Time: 2127 us
+Time: 2133 us
+Time: 2132 us
+Time: 2117 us
+Time: 2076 us
+
+Time: 2299 us
+Time: 2095 us
+Time: 2107 us
+Time: 2082 us
+Time: 2161 us
+
+Time: 2134 us
+Time: 2150 us
+Time: 2390 us
+Time: 2429 us
+Time: 2126 us
+
+Time: 2563 us
+Time: 2559 us
+Time: 2581 us
+Time: 2286 us
+Time: 2076 us
+
+Time: 2106 us
+Time: 2088 us
+Time: 2086 us
+Time: 2092 us
+Time: 2094 us
+
+Time: 2407 us
+Time: 2070 us
+Time: 2128 us
+Time: 2089 us
+Time: 2411 us
+
+Time: 2544 us
+Time: 2544 us
+Time: 2529 us
+Time: 2200 us
+Time: 2143 us
+
+Time: 2533 us
+Time: 2532 us
+Time: 2531 us
+Time: 2151 us
+Time: 2066 us
+
+Time: 2540 us
+Time: 2899 us
+Time: 2531 us
+Time: 2215 us
+Time: 2104 us
+
+Time: 2556 us
+Time: 2569 us
+Time: 2411 us
+Time: 2121 us
+Time: 2096 us
+
+Time: 2120 us
+Time: 2338 us
+Time: 2122 us
+Time: 2156 us
+Time: 2268 us
+
+Time: 2565 us
+Time: 2542 us
+Time: 2530 us
+Time: 2310 us
+Time: 2104 us
+
+Time: 2542 us
+Time: 2680 us
+Time: 2513 us
+Time: 2192 us
+Time: 2188 us
+
+Time: 2495 us
+Time: 2252 us
+Time: 2083 us
+Time: 2081 us
+Time: 2125 us
+
+Time: 2138 us
+Time: 2161 us
+Time: 2229 us
+Time: 2194 us
+Time: 2218 us
+
+Time: 2099 us
+Time: 2190 us
+Time: 2277 us
+Time: 2109 us
+Time: 2370 us
+
+Time: 2129 us
+Time: 2191 us
+Time: 2354 us
+Time: 2104 us
+Time: 2062 us
+
+Time: 2532 us
+Time: 2674 us
+Time: 2434 us
+Time: 2127 us
+Time: 2074 us
+
+Time: 2087 us
+Time: 2082 us
+Time: 2133 us
+Time: 2095 us
+Time: 2150 us
+
+Time: 2544 us
+Time: 2715 us
+Time: 2435 us
+Time: 2165 us
+Time: 2086 us
+

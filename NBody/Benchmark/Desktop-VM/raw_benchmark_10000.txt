@@ -1,0 +1,59 @@
+Time: 2534 us
+Time: 2286 us
+Time: 2237 us
+Time: 2471 us
+Time: 2045 us
+
+Time: 44198 us
+Time: 2516 us
+Time: 2098 us
+Time: 1895 us
+Time: 1934 us
+
+Time: 2554 us
+Time: 2422 us
+Time: 2528 us
+Time: 2254 us
+Time: 1935 us
+
+Time: 2406 us
+Time: 3799 us
+Time: 4224 us
+Time: 28019 us
+Time: 2401 us
+
+Time: 2294 us
+Time: 2447 us
+Time: 2566 us
+Time: 2273 us
+Time: 1943 us
+
+Time: 2292 us
+Time: 2225 us
+Time: 2760 us
+Time: 2296 us
+Time: 1955 us
+
+Time: 2336 us
+Time: 2552 us
+Time: 2323 us
+Time: 4627 us
+Time: 1858 us
+
+Time: 2365 us
+Time: 2341 us
+Time: 2529 us
+Time: 2434 us
+Time: 1994 us
+
+Time: 2281 us
+Time: 2260 us
+Time: 2447 us
+Time: 2524 us
+Time: 2358 us
+
+Time: 2384 us
+Time: 2293 us
+Time: 2250 us
+Time: 2009 us
+Time: 1858 us

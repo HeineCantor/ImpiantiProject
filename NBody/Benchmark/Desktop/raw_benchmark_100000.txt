@@ -1,0 +1,186 @@
+Time: 22802 us
+Time: 20511 us
+Time: 20594 us
+Time: 20495 us
+Time: 20457 us
+
+Time: 20577 us
+Time: 20522 us
+Time: 20673 us
+Time: 20544 us
+Time: 20510 us
+
+Time: 22913 us
+Time: 20666 us
+Time: 20609 us
+Time: 20739 us
+Time: 20806 us
+
+Time: 22980 us
+Time: 20639 us
+Time: 20668 us
+Time: 20595 us
+Time: 20660 us
+
+Time: 23400 us
+Time: 21058 us
+Time: 20803 us
+Time: 21825 us
+Time: 20750 us
+
+Time: 20584 us
+Time: 20558 us
+Time: 20550 us
+Time: 20591 us
+Time: 20550 us
+
+Time: 21367 us
+Time: 20934 us
+Time: 20920 us
+Time: 20838 us
+Time: 24783 us
+
+Time: 23078 us
+Time: 20678 us
+Time: 20557 us
+Time: 20738 us
+Time: 20891 us
+
+Time: 20888 us
+Time: 20926 us
+Time: 20729 us
+Time: 20734 us
+Time: 20810 us
+
+Time: 22539 us
+Time: 20735 us
+Time: 20568 us
+Time: 20589 us
+Time: 20520 us
+
+Time: 22863 us
+Time: 20896 us
+Time: 22239 us
+Time: 20790 us
+Time: 21274 us
+
+Time: 23199 us
+Time: 20945 us
+Time: 20908 us
+Time: 20908 us
+Time: 20988 us
+
+Time: 22676 us
+Time: 20617 us
+Time: 20678 us
+Time: 20633 us
+Time: 20585 us
+
+Time: 24239 us
+Time: 20504 us
+Time: 20764 us
+Time: 20625 us
+Time: 20536 us
+
+Time: 22745 us
+Time: 20692 us
+Time: 20705 us
+Time: 20701 us
+Time: 20709 us
+
+Time: 23141 us
+Time: 20720 us
+Time: 20612 us
+Time: 20637 us
+Time: 20649 us
+
+Time: 22123 us
+Time: 20809 us
+Time: 20793 us
+Time: 20743 us
+Time: 20708 us
+
+Time: 22626 us
+Time: 20646 us
+Time: 20535 us
+Time: 20648 us
+Time: 20658 us
+
+Time: 21120 us
+Time: 21232 us
+Time: 21057 us
+Time: 20918 us
+Time: 21016 us
+
+Time: 22699 us
+Time: 20704 us
+Time: 22082 us
+Time: 20790 us
+Time: 20627 us
+
+Time: 20604 us
+Time: 21978 us
+Time: 20590 us
+Time: 20765 us
+Time: 20591 us
+
+Time: 22764 us
+Time: 20656 us
+Time: 20680 us
+Time: 20827 us
+Time: 20512 us
+
+Time: 23859 us
+Time: 20546 us
+Time: 20622 us
+Time: 20740 us
+Time: 20616 us
+
+Time: 24343 us
+Time: 20618 us
+Time: 20605 us
+Time: 20909 us
+Time: 20632 us
+
+Time: 22762 us
+Time: 20804 us
+Time: 20888 us
+Time: 20813 us
+Time: 20850 us
+
+Time: 22627 us
+Time: 20592 us
+Time: 20851 us
+Time: 20706 us
+Time: 20853 us
+
+Time: 21263 us
+Time: 21483 us
+Time: 21125 us
+Time: 21069 us
+Time: 21165 us
+
+Time: 22685 us
+Time: 20585 us
+Time: 20576 us
+Time: 20602 us
+Time: 20638 us
+
+Time: 22832 us
+Time: 20866 us
+Time: 20680 us
+Time: 20712 us
+Time: 22251 us
+
+Time: 22994 us
+Time: 22219 us
+Time: 20761 us
+Time: 20761 us
+Time: 20714 us
+
+Time: 20899 us
+Time: 20758 us
+Time: 20610 us
+Time: 20741 us
+Time: 20730 us
+

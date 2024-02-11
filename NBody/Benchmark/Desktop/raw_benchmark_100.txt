@@ -1,0 +1,186 @@
+Time: 48 us
+Time: 52 us
+Time: 43 us
+Time: 42 us
+Time: 42 us
+
+Time: 52 us
+Time: 42 us
+Time: 42 us
+Time: 43 us
+Time: 42 us
+
+Time: 49 us
+Time: 42 us
+Time: 42 us
+Time: 40 us
+Time: 43 us
+
+Time: 42 us
+Time: 41 us
+Time: 42 us
+Time: 41 us
+Time: 51 us
+
+Time: 43 us
+Time: 42 us
+Time: 42 us
+Time: 42 us
+Time: 41 us
+
+Time: 34 us
+Time: 34 us
+Time: 33 us
+Time: 42 us
+Time: 43 us
+
+Time: 41 us
+Time: 42 us
+Time: 42 us
+Time: 40 us
+Time: 41 us
+
+Time: 45 us
+Time: 40 us
+Time: 49 us
+Time: 43 us
+Time: 42 us
+
+Time: 44 us
+Time: 51 us
+Time: 53 us
+Time: 43 us
+Time: 46 us
+
+Time: 43 us
+Time: 43 us
+Time: 51 us
+Time: 42 us
+Time: 42 us
+
+Time: 45 us
+Time: 43 us
+Time: 41 us
+Time: 52 us
+Time: 42 us
+
+Time: 45 us
+Time: 42 us
+Time: 42 us
+Time: 40 us
+Time: 41 us
+
+Time: 36 us
+Time: 35 us
+Time: 43 us
+Time: 42 us
+Time: 35 us
+
+Time: 41 us
+Time: 41 us
+Time: 42 us
+Time: 40 us
+Time: 42 us
+
+Time: 43 us
+Time: 43 us
+Time: 41 us
+Time: 41 us
+Time: 51 us
+
+Time: 41 us
+Time: 42 us
+Time: 37 us
+Time: 36 us
+Time: 42 us
+
+Time: 38 us
+Time: 35 us
+Time: 34 us
+Time: 42 us
+Time: 39 us
+
+Time: 38 us
+Time: 34 us
+Time: 36 us
+Time: 36 us
+Time: 44 us
+
+Time: 47 us
+Time: 35 us
+Time: 42 us
+Time: 33 us
+Time: 44 us
+
+Time: 38 us
+Time: 42 us
+Time: 34 us
+Time: 34 us
+Time: 42 us
+
+Time: 38 us
+Time: 38 us
+Time: 35 us
+Time: 36 us
+Time: 44 us
+
+Time: 55 us
+Time: 52 us
+Time: 42 us
+Time: 42 us
+Time: 43 us
+
+Time: 45 us
+Time: 41 us
+Time: 47 us
+Time: 35 us
+Time: 35 us
+
+Time: 42 us
+Time: 53 us
+Time: 42 us
+Time: 35 us
+Time: 37 us
+
+Time: 38 us
+Time: 46 us
+Time: 35 us
+Time: 44 us
+Time: 43 us
+
+Time: 53 us
+Time: 52 us
+Time: 41 us
+Time: 42 us
+Time: 40 us
+
+Time: 39 us
+Time: 43 us
+Time: 36 us
+Time: 36 us
+Time: 37 us
+
+Time: 42 us
+Time: 49 us
+Time: 42 us
+Time: 47 us
+Time: 42 us
+
+Time: 41 us
+Time: 42 us
+Time: 36 us
+Time: 35 us
+Time: 42 us
+
+Time: 54 us
+Time: 42 us
+Time: 42 us
+Time: 42 us
+Time: 52 us
+
+Time: 43 us
+Time: 43 us
+Time: 44 us
+Time: 43 us
+Time: 42 us
+

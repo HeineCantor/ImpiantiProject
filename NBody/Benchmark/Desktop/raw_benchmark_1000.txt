@@ -1,0 +1,186 @@
+Time: 301 us
+Time: 282 us
+Time: 275 us
+Time: 310 us
+Time: 356 us
+
+Time: 282 us
+Time: 342 us
+Time: 268 us
+Time: 274 us
+Time: 283 us
+
+Time: 291 us
+Time: 228 us
+Time: 226 us
+Time: 228 us
+Time: 231 us
+
+Time: 276 us
+Time: 271 us
+Time: 298 us
+Time: 300 us
+Time: 307 us
+
+Time: 237 us
+Time: 243 us
+Time: 229 us
+Time: 281 us
+Time: 226 us
+
+Time: 232 us
+Time: 251 us
+Time: 224 us
+Time: 222 us
+Time: 223 us
+
+Time: 259 us
+Time: 238 us
+Time: 278 us
+Time: 218 us
+Time: 283 us
+
+Time: 274 us
+Time: 275 us
+Time: 227 us
+Time: 274 us
+Time: 228 us
+
+Time: 268 us
+Time: 264 us
+Time: 225 us
+Time: 268 us
+Time: 224 us
+
+Time: 286 us
+Time: 291 us
+Time: 271 us
+Time: 274 us
+Time: 270 us
+
+Time: 283 us
+Time: 274 us
+Time: 286 us
+Time: 270 us
+Time: 288 us
+
+Time: 279 us
+Time: 283 us
+Time: 320 us
+Time: 270 us
+Time: 272 us
+
+Time: 281 us
+Time: 320 us
+Time: 316 us
+Time: 321 us
+Time: 272 us
+
+Time: 284 us
+Time: 268 us
+Time: 272 us
+Time: 268 us
+Time: 267 us
+
+Time: 243 us
+Time: 289 us
+Time: 227 us
+Time: 237 us
+Time: 225 us
+
+Time: 309 us
+Time: 283 us
+Time: 287 us
+Time: 279 us
+Time: 269 us
+
+Time: 279 us
+Time: 268 us
+Time: 269 us
+Time: 272 us
+Time: 268 us
+
+Time: 281 us
+Time: 319 us
+Time: 307 us
+Time: 268 us
+Time: 246 us
+
+Time: 280 us
+Time: 228 us
+Time: 233 us
+Time: 303 us
+Time: 229 us
+
+Time: 285 us
+Time: 276 us
+Time: 287 us
+Time: 273 us
+Time: 292 us
+
+Time: 244 us
+Time: 229 us
+Time: 289 us
+Time: 244 us
+Time: 547 us
+
+Time: 287 us
+Time: 300 us
+Time: 277 us
+Time: 301 us
+Time: 270 us
+
+Time: 285 us
+Time: 219 us
+Time: 236 us
+Time: 231 us
+Time: 270 us
+
+Time: 280 us
+Time: 304 us
+Time: 270 us
+Time: 284 us
+Time: 267 us
+
+Time: 282 us
+Time: 271 us
+Time: 270 us
+Time: 266 us
+Time: 304 us
+
+Time: 274 us
+Time: 357 us
+Time: 319 us
+Time: 382 us
+Time: 274 us
+
+Time: 249 us
+Time: 239 us
+Time: 278 us
+Time: 225 us
+Time: 277 us
+
+Time: 276 us
+Time: 269 us
+Time: 291 us
+Time: 285 us
+Time: 276 us
+
+Time: 232 us
+Time: 226 us
+Time: 293 us
+Time: 230 us
+Time: 282 us
+
+Time: 274 us
+Time: 300 us
+Time: 265 us
+Time: 271 us
+Time: 302 us
+
+Time: 235 us
+Time: 228 us
+Time: 314 us
+Time: 241 us
+Time: 240 us
+
