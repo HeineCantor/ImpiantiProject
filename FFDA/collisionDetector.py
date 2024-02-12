@@ -1,6 +1,7 @@
 from os import listdir
 
-FOLDER_PATH = "/home/heinecantor/Dropbox/UNI/Impianti/Esercitazioni/Homework_FFDA/ffdatoolset/tupling_MercuryErrorLog-200/"
+FOLDER_PATH = "/home/heinecantor/Dropbox/UNI/Impianti/Esercitazioni/Homework_FFDA/ffdatoolset/tupling_BGLErrorLog-230/"
+#FOLDER_PATH = "/home/heinecantor/Dropbox/UNI/Impianti/Esercitazioni/Homework_FFDA/ffdatoolset/tupling_MercuryErrorLog-200/"
 
 tupleFileList = [f for f in listdir(FOLDER_PATH) if "tuple" in str(f)]
 
