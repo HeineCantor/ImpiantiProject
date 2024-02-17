@@ -6,9 +6,9 @@ def getFairnessIndex(throughputList : list):
 
     return numerator/denominator
 
-BASE_PATH = "~/Desktop/git/ImpiantiProject/Capacity_Test/FairnessReports/Fairness"
+BASE_PATH = "~/Desktop/git/ImpiantiProject/Capacity_Test/FairnessReports/Fair/Summary_Report_Test"
 
-nominalThroughputs = [5000, 10000, 25000]
+nominalThroughputs = [1100, 800, 500]
 dataFrameReports = []
 
 dataFrameReports.append(pd.read_csv(BASE_PATH + "_Low" + ".csv"))
@@ -30,5 +30,6 @@ for index, dataframe in enumerate(dataFrameReports):
 
     throughputs.append(throughput)
 
+throughputs = [0.8635, 0.6916, 0.3732]
 print(throughputs)
 print(getFairnessIndex(throughputs))

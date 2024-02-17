@@ -3,10 +3,10 @@ import pandas as pd
 
 FILE_PATH = "/home/heinecantor/Dropbox/UNI/Impianti/Esercitazioni/HomeWork_Regression.xls"
 
-regressionDf = pd.read_excel(FILE_PATH, sheet_name="EXP2")
+regressionDf = pd.read_excel(FILE_PATH, sheet_name="VMres3")
 
-x = regressionDf["observation"].to_list()
-y = regressionDf["nmail"].to_list()
+x = regressionDf["T(s)"].to_list()
+y = regressionDf["allocated heap"].to_list()
 
 slope, intercept, low_slope, high_slope = theilslopes(y, x)
 
